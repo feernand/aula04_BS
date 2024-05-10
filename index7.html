@@ -1,0 +1,94 @@
+<!--accordion parecido com collapse-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Accordion</title>
+</head>
+<body class="bg-dark">
+    <div class="container mt-5">
+        <div class="row mt-5">
+           <div class="col">
+                
+            <!-- elemento pai principal do accordion-->
+            <div class="accordion" id="accordion">
+            <!-- item 1 do accordion -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_1">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_1"
+                        aria-expanded="true"
+                        aria-controls="titulo_1">Accordion Item #1
+                    </button>
+                    </h2>
+
+                    <div id="area_1" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_1"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto officia est non odio ab tempore quasi, atque error debitis ullam perferendis maiores quisquam veritatis, eos aliquid unde, autem quam!
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- item 2 do accordion -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_2">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_2"
+                        aria-expanded="true"
+                        aria-controls="titulo_2">Accordion Item #2
+                    </button>
+                    </h2>
+
+                    <div id="area_2" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_2"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ullam laudantium ipsum sit cum omnis blanditiis id facere? Similique cum voluptas commodi unde eius mollitia maxime exercitationem placeat totam voluptatem molestias amet saepe ad itaque facere ut, nihil incidunt illo asperiores in quis esse? Eum, necessitatibus. Harum nihil consectetur incidunt, fugiat corporis amet repellendus doloremque quis. Eligendi quos nihil autem dolores explicabo magnam velit deleniti impedit architecto. Similique, at maiores?
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- item 3 do accordion -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_3">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_3"
+                        aria-expanded="true"
+                        aria-controls="titulo_3">Accordion Item #3
+                    </button>
+                    </h2>
+
+                    <div id="area_3" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_3"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia dolorem consequuntur asperiores necessitatibus quas molestias hic laudantium corrupti voluptatum, saepe et corporis eos facilis sequi amet non in deserunt impedit consectetur adipisci a voluptates quia ipsum. Enim qui hic voluptatum iste fugit nihil, repudiandae ab tempore quae sequi est assumenda debitis tenetur beatae, deserunt aut suscipit cupiditate? Deleniti mollitia sint porro officiis assumenda saepe atque cupiditate!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
